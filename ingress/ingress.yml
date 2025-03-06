@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ingress
+  namespace: online-shop
+spec:
+   rules:
+     - host: shop.example.com
+       http:
+         paths:
+           - path: /
+             pathType: Prefix
+             backend:
+               service:
+                 name: shop-service
+                 port:
+                   number: 80
+     - host: blog.example.com
+       http:
+         paths:
+           - path: /
+             pathType: Prefix
+             backend:
+               service:
+                 name: blog-service
+                 port:
+                   number: 80   
