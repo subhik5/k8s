@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # k8s
 about kubernetes
@@ -154,5 +154,4 @@ kubectl get nodes
 - **ConfigMaps & Secrets**: Stores configuration data securely
 
 This `README.md` serves as a beginner-friendly guide for Kubernetes.
-# Kubernetes Documentation
->>>>>>> c359325 (Added Kubernetes documentation)
+
