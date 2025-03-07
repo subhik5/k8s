@@ -1,8 +1,7 @@
  **Kubernetes concepts** 🚀.  
 
 ---
-
-## **Next Topics to Learn in Kubernetes**  
+  
 
 ### 🔹 **1. Kubernetes Networking (Services & Ingress)**
 - **Service Types**:  
